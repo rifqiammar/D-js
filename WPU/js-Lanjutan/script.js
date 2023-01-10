@@ -1,4 +1,3 @@
 /*
-    Exceution Context, Hoisting, Scope
-    
+        Arrow Function
 */ 
