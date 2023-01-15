@@ -42,3 +42,4 @@ const Mahasiswa = function () {
 }
 
 // const ammar = new Mahasiswa;
+
