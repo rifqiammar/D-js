@@ -1,44 +1,28 @@
-/*
-        This pada Arrow Function
-*/ 
+let s = ''
+for (let x = 0; x < 9; x++) {
+    for(let y = 0; y < 9; y++){
+        if( x == 0){
 
-// Konsep this pada Arrow Function
+            s += '*';
+        }else if(x == 8){
+            s += '*';
 
-/* 
+        }else if(y==0){
+            s += '*';
+        }else if(y==0){
+            s += '*';
+        }else if(y==8){
+            s += '*';
+        }else if(x == 4){
+            s += '*';
+        }else{
+            s += ' ';
 
-constructor function
+        }
 
-const Mahasiswa = function() 
-{
-    this.nama = 'Rifqi';
-    this.umur = 25;
-    this.sayHello = function(){
-        console.log(`Assalamu'alaikum, nama Saya ${this.nama}, dan Saya ${this.umur} tahun.`);
+        console.log(s);
     }
-
+    
+    console.log('\n');
 }
 
-const ammar = new Mahasiswa();
-*/
-
-
-// Arrow function tidak memiliki konsep this
-
-
-
-// 
-const Mahasiswa = function () {
-    this.nama = 'rifqi';
-    this.angka = 1;
-    this.sayHello = function () {
-        console.log(`Halo, Nama saya ${this.nama}, dan saya ${umur} tahun.`);
-    }
-
-
-    // setiap setengah detik umur bertambah 1
-    setInterval(() => {
-        console.log(this.angka++);
-    }, 500);
-}
-
-// const ammar = new Mahasiswa;
